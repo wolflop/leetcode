@@ -23,7 +23,7 @@ class Solution:
 		result = []
 		#使用enumerate函数获取列表nums的成员对应的位置和数值
 		for index, value in enumerate(nums):
-			#判断目标值减去value是否在剩余的nums的切片内，如果在返回对应的index，value
+			#判断目标值减去value是否在剩余的nums的切片内，如果存在则返回对应的index，value
 			if target - value in nums[index+1:]:
 				result.append({index:value, nums[index+1:].index(target-value)+index+1:target-value})
 		return result
