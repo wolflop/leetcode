@@ -32,8 +32,8 @@ class Solution:
 				counterA += 1
 			#判断字符串中self.inputString[counterA]在inputString[counterB:counterA]中，计数加1，并将counterB位置移至counterA
 			elif inputString[counterA] in self.inputString[counterB:counterA]:
-				counterA +=1
 				counterB = counterA
+				counterA +=1
 			#其它条件退出循环
 			else:
 				break
