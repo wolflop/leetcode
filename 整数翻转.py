@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 #reverInt.py
+
 class ReverInt:
 	def __init__(self, inputInt):
 		#初始化参数
