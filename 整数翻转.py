@@ -24,3 +24,4 @@ if __name=='__main__':
 	reverint = ReverInt(inputint)
 	print(reverint.reversInt())
 		
+d
