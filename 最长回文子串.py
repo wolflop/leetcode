@@ -25,7 +25,11 @@ class solution:
                         else:
                             output.append(self.inputStr[countA:countB+1])
             countA += 1
-        return output[0]
+        if len(output[0]) > 1:
+            return output[0]
+        else:
+            print("There is not Pllindrome.")
+
 
 if __name__=='__main__':
     inputstr = 'abad12343211'
