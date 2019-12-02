@@ -28,7 +28,7 @@ class solution:
         if len(output[0]) > 1:
             return output[0]
         else:
-            print("There is not Pllindrome.")
+            print("There is no Pllindrome.")
 
 
 if __name__=='__main__':
